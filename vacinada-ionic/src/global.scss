@@ -1,0 +1,55 @@
+/* Ionic core */
+@import '@ionic/angular/css/core.css';
+@import '@ionic/angular/css/normalize.css';
+@import '@ionic/angular/css/structure.css';
+@import '@ionic/angular/css/typography.css';
+@import '@ionic/angular/css/display.css';
+@import '@ionic/angular/css/padding.css';
+@import '@ionic/angular/css/float-elements.css';
+@import '@ionic/angular/css/text-alignment.css';
+@import '@ionic/angular/css/text-transformation.css';
+@import '@ionic/angular/css/flex-utils.css';
+
+* {
+  font-family: 'Nunito', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, .display {
+  font-family: 'Baloo 2', 'Nunito', sans-serif;
+}
+
+/* Conteúdo central com largura máxima (responsivo desktop/tablet) */
+.vac-container {
+  max-width: 960px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.vac-grid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 720px) {
+  .vac-grid.cols-2 { grid-template-columns: 1fr 1fr; }
+}
+
+.vac-card {
+  background: var(--vac-card);
+  border: 1px solid var(--vac-border);
+  border-radius: 22px;
+  box-shadow: 0 2px 12px -4px rgba(71, 60, 51, 0.14);
+}
+
+.section-title {
+  font-family: 'Baloo 2', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin: 0;
+}
+.section-subtitle {
+  color: var(--vac-muted-text);
+  font-weight: 600;
+  font-size: 13px;
+  margin: 2px 0 0;
+}
+.muted { color: var(--vac-muted-text); }

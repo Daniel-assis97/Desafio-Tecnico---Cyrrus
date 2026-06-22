@@ -1,0 +1,62 @@
+/*
+ * Paleta obrigatória do desafio:
+ *   #ABC270 (verde)  #FEC868 (amarelo)  #FDA769 (laranja)  #473C33 (marrom)
+ * Mapeada para as cores do Ionic + tokens semânticos de status vacinal.
+ */
+:root {
+  /* Marca */
+  --vac-green: #abc270;
+  --vac-yellow: #fec868;
+  --vac-orange: #fda769;
+  --vac-brown: #473c33;
+  --vac-bg: #fbf9f3;
+  --vac-card: #ffffff;
+  --vac-muted: #f0ebe1;
+  --vac-muted-text: #8a8076;
+  --vac-border: #ece6da;
+
+  /* Ionic primary -> verde */
+  --ion-color-primary: #abc270;
+  --ion-color-primary-rgb: 171, 194, 112;
+  --ion-color-primary-contrast: #36402a;
+  --ion-color-primary-contrast-rgb: 54, 64, 42;
+  --ion-color-primary-shade: #97ab63;
+  --ion-color-primary-tint: #b4c87e;
+
+  /* Ionic secondary -> amarelo */
+  --ion-color-secondary: #fec868;
+  --ion-color-secondary-rgb: 254, 200, 104;
+  --ion-color-secondary-contrast: #473c33;
+  --ion-color-secondary-contrast-rgb: 71, 60, 51;
+  --ion-color-secondary-shade: #e0b05c;
+  --ion-color-secondary-tint: #fece77;
+
+  /* Ionic tertiary -> laranja */
+  --ion-color-tertiary: #fda769;
+  --ion-color-tertiary-rgb: 253, 167, 105;
+  --ion-color-tertiary-contrast: #ffffff;
+  --ion-color-tertiary-contrast-rgb: 255, 255, 255;
+  --ion-color-tertiary-shade: #df935c;
+  --ion-color-tertiary-tint: #fdb078;
+
+  /* status */
+  --ion-color-success: #abc270;
+  --ion-color-success-rgb: 171, 194, 112;
+  --ion-color-success-contrast: #36402a;
+  --ion-color-warning: #fec868;
+  --ion-color-warning-rgb: 254, 200, 104;
+  --ion-color-warning-contrast: #473c33;
+  --ion-color-danger: #fda769;
+  --ion-color-danger-rgb: 253, 167, 105;
+  --ion-color-danger-contrast: #ffffff;
+
+  /* Base */
+  --ion-background-color: #fbf9f3;
+  --ion-background-color-rgb: 251, 249, 243;
+  --ion-text-color: #473c33;
+  --ion-text-color-rgb: 71, 60, 51;
+  --ion-toolbar-background: #ffffff;
+  --ion-tab-bar-background: #ffffff;
+  --ion-item-background: #ffffff;
+  --ion-font-family: 'Nunito', sans-serif;
+}
