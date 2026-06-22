@@ -65,3 +65,5 @@ largura máxima + grids de 2 colunas a partir de 720px, cobrindo mobile,
 tablet e desktop.
 
 ## 🔌 Próximos passos sugeridos
+
+Conteúdo das vacinas baseado no Programa Nacional de Imunizações (PNI). Material informativo — siga sempre a orientação de um profissional de saúde.
